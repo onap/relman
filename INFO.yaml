@@ -1,0 +1,31 @@
+---
+project: 'relman'
+project_creation_date: '2022-03-09'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &relman_ptl
+    name: 'David McBride'
+    email: 'dmcbride@linuxfoundation.org'
+    id: 'dmcbride'
+    company: 'Linux Foundation'
+    timezone: 'America/Los_Angeles'
+primary_contact: *relman_ptl
+repositories:
+    - relman
+committers:
+    - <<: *relman_ptl
+    - name: 'Tony Hansen'
+      email: 'tony@att.com'
+      company: 'AT&T'
+      id: 'TonyLHansen'
+    - name: 'Thomas Kulik'
+      email: 'Thomas.Kulik@telekom.de '
+      company: 'Deutsche Telekom'
+      id: 'thmsdt'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://wiki.onap.org/x/rKkEBw'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
