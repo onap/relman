@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6bcb988c_7123e1eb",
+        "filename": "INFO.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2022-03-16T18:09:48Z",
+      "side": 1,
+      "message": "Do we need to add Tony\u0027s and Thomas\u0027 timezone?",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 18
+      },
+      "revId": "2e5fc05283b4794bb59f892ee935d07d285ea598",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
