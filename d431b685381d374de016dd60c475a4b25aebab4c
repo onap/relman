@@ -1,0 +1,8 @@
+Code-Review+2: LF Jenkins CI <releng+lf-jobbuilder@linuxfoundation.org>
+Code-Review+2: David McBride <dmcbride@linuxfoundation.org>
+Verified+1: LF Jenkins CI <releng+lf-jobbuilder@linuxfoundation.org>
+Submitted-by: David McBride <dmcbride@linuxfoundation.org>
+Submitted-at: Wed, 16 Mar 2022 16:37:13 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/relman/+/127762
+Project: relman
+Branch: refs/heads/master
