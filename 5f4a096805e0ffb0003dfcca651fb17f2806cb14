@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d2c4a089_b5fd6baf",
+        "filename": "INFO.yaml",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 3091
+      },
+      "writtenOn": "2022-03-17T14:14:12Z",
+      "side": 1,
+      "message": "space to be removed?",
+      "range": {
+        "startLine": 40,
+        "startChar": 37,
+        "endLine": 40,
+        "endChar": 38
+      },
+      "revId": "5f4a096805e0ffb0003dfcca651fb17f2806cb14",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
