@@ -1,0 +1,1963 @@
+---
+
+# repos.yaml
+# Contains an entry for every ONAP project and related repositories.
+# Includes authorative information about repo state and release partizipation.
+
+# Prevent yamllint from reporting problems for the whole file:
+# yamllint disable rule:colons
+# yamllint disable rule:line-length
+
+aaf:
+
+  - repository:   'aaf'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/authz'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/cadi'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/certservice'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/inno'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/luaplugin'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/oom'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/sms'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aaf/sshsm'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+aai:
+
+  - repository:   'aai'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/aai-common'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/aai-config'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/aai-data'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/aai-service'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/babel'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/cacher'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/chameleon'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/champ'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/data-router'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/eis'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/enricher'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/esr-gui'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/esr-server'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/event-client'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/gallifrey'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/gap'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/gizmo'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/graphadmin'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/graphgraph'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/logging-service'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/model-loader'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/oom'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/resources'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/rest-client'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/router-core'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/schema-service'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/search-data-service'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/sparky-be'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/sparky-fe'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/spike'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/tabular-data-service'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'aai/test-config'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/traversal'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'aai/validation'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+appc:
+
+  - repository:   'appc'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'appc/cdt'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'appc/deployment'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'appc/parent'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+ccsdk:
+
+  - repository:   'ccsdk'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/apps'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/cds'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/dashboard'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/distribution'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/features'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/oran'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/parent'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/platform/blueprints'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/platform/nbapi'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/platform/plugins'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/sli'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/sli/adaptors'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/sli/core'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/sli/northbound'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/sli/plugins'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/storage/esaas'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/storage/pgaas'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ccsdk/utils'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+ci-management:
+
+  - repository:   'ci-management'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+clamp:
+
+  - repository:   'clamp'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'clamp/dashboard'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'clamp/oom'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'clamp/ui'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+cli:
+
+  - repository:   'cli'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+cps:
+
+  - repository:   'cps'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'cps/cps-tbdmt'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'cps/cps-temporal'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'cps/ncmp-dmi-plugin'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+dcae:
+
+  - repository:   'dcae'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/apod'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/apod/analytics'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/apod/buildtools'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/apod/cdap'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/collectors'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/collectors/ves'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/controller'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/controller/analytics'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/dcae-inventory'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/demo'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/demo/startup'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/demo/startup/aaf'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/demo/startup/controller'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/demo/startup/message-router'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/dmaapbc'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/operation'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/operation/utils'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/orch-dispatcher'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/pgaas'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/utils'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcae/utils/buildtools'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+dcaegen2:
+
+  - repository:   'dcaegen2'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/analytics'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/analytics/flink'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/analytics/pnda'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/analytics/tca'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/analytics/tca-gen2'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors/datafile'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors/hv-ves'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors/restconf'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors/snmptrap'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/collectors/ves'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/deployments'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/blueprints'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/cdapbroker'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/cli'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/configbinding'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/deployment-handler'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/inventory-api'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/plugins'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/policy-handler'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/registrator'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/servicechange-handler'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/platform/ves-openapi-manager'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/heartbeat'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/mapper'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/pm-mapper'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/prh'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/sdk'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/services/son-handler'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dcaegen2/utils'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+demo:
+
+  - repository:   'demo'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+dmaap:
+
+  - repository:   'dmaap'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/buscontroller'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/datarouter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/dbcapi'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dmaap/kafka11aaf'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/messagerouter/dmaapclient'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/messagerouter/messageservice'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'dmaap/messagerouter/mirroragent'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dmaap/messagerouter/msgrtr'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'dmaap/zookeeper'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+doc:
+
+  - repository:   'doc'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+ecompsdkos:
+
+  - repository:   'ecompsdkos'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+externalapi:
+
+  - repository:   'externalapi'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'externalapi/nbi'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+holmes:
+
+  - repository:   'holmes'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'holmes/common'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'holmes/dsa'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'holmes/engine-management'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'holmes/rule-management'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+integration:
+
+  - repository:   'integration'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/benchmark'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/csit'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/data-provider'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/devtool'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/docker/onap-java11'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/docker/onap-python'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/ietf-actn-tools'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/seccom'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/5G-core-nf-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/A1-policy-enforcement-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/core-nssmf-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/dc-simulator'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/masspnf-simulator'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/nf-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/nf-simulator/avcn-manager'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/nf-simulator/netconf-server'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/nf-simulator/pm-https-server'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/nf-simulator/ves-client'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/pnf-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/ran-nssmf-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/simulators/ran-simulator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/terraform'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/terragrunt'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/usecases/A1-policy-enforcement'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/usecases/A1-policy-enforcement-r-apps'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'integration/usecases/bbs'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/usecases/mdons'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'integration/xtesting'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+logging-analytics:
+
+  - repository:   'logging-analytics'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-aai-context-builder'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-audit-common'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-context-aggregator'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-network-discovery-context-builder'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-sdc-context-builder'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'logging-analytics/pomba/pomba-sdnc-context-builder'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+modeling:
+
+  - repository:   'modeling/etsicatalog'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'modeling/javatoscachecker'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'modeling/modelspec'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'modeling/toscaparsers'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+msb:
+
+  - repository:   'msb'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'msb/apigateway'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'msb/discovery'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'msb/java-sdk'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'msb/service-mesh'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'msb/swagger-sdk'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+mso:
+
+  - repository:   'mso'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'mso/chef-repo'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'mso/docker-config'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'mso/libs'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'mso/mso-config'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+multicloud:
+
+  - repository:   'multicloud'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'multicloud/azure'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'multicloud/framework'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'multicloud/k8s'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'multicloud/openstack'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'multicloud/openstack/vmware'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'multicloud/openstack/windriver'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+music:
+
+  - repository:   'music'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'music/distributed-kv-store'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'music/mdbc'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'music/prom'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+ncomp:
+
+  - repository:   'ncomp'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/cdap'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/core'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/docker'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/maven'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/openstack'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/sirius'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/sirius/manager'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ncomp/utils'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+oom:
+
+  - repository:   'oom'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/consul'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/offline-installer'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/platform/cert-manager'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/platform/cert-service'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/platform/keycloak'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/readiness'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/registrator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oom/utils'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+oparent:
+
+  - repository:   'oparent'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'oparent/cia'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+optf:
+
+  - repository:   'optf'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'optf/cmso'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'optf/fgps'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'optf/has'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'optf/osdf'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+osa:
+
+  - repository:   'osa'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+policy:
+
+  - repository:   'policy'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/apex-pdp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/api'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/clamp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/common'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/core'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'policy/distribution'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/docker'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/drools-applications'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/drools-pdp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/engine'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'policy/gui'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/models'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/pap'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/parent'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'policy/pdp'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'policy/xacml-pdp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+portal:
+
+  - repository:   'portal'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'portal/sdk'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+relman:
+
+  - repository:   'relman'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+sandbox-2:
+
+  - repository:   'sandbox-2'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+sandbox-3:
+
+  - repository:   'sandbox-3'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+sandbox-vid:
+
+  - repository:   'sandbox-vid'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+sdc:
+
+  - repository:   'sdc'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/ci'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/dt'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/dt-be-main'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/dt-be-property'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/fe'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/rule-engine'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/dcae-d/tosca-lab'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/jtosca'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/microservices'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/onap-ui'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/onap-ui-angular'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/onap-ui-common'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/onap-ui-react'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-be-common'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-distribution-client'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-docker-base'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-helm-validator'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-pubsub'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-titan-cassandra'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-tosca'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdc/sdc-workflow-designer'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+sdnc:
+
+  - repository:   'sdnc'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdnc/adaptors'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdnc/apps'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdnc/architecture'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdnc/core'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdnc/features'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdnc/northbound'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdnc/oam'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'sdnc/parent'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'sdnc/plugins'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+so:
+
+  - repository:   'so'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/adapters/so-cnf-adapter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/adapters/so-etsi-sol003-adapter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/adapters/so-etsi-sol005-adapter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/adapters/so-nssmf-adapter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/adapters/so-oof-adapter'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/chef-repo'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/docker-config'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/libs'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/so-admin-cockpit'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/so-config'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'so/so-etsi-nfvo'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+spark-model-runner:
+
+  - repository:   'spark-model-runner'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+testsuite:
+
+  - repository:   'testsuite'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/cds'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/cds-mock-odl'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/cds-mock-server'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/cds-mock-ssh'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/heatbridge'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'testsuite/oom'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/python-testing-utils'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/pythonsdk-tests'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'testsuite/robot-utils'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+ui:
+
+  - repository:   'ui'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'ui/dmaapbc'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+university:
+
+  - repository:   'university'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+usecase-ui:
+
+  - repository:   'usecase-ui'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'usecase-ui/nlp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'usecase-ui/server'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+vfc:
+
+  - repository:   'vfc'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/gvnfm/vnflcm'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/gvnfm/vnfmgr'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/gvnfm/vnfres'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/catalog'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/db'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/driver/ems'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/driver/sfc'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/driver/vnfm/gvnfm'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/driver/vnfm/svnfm'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/lcm'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/multivimproxy'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/resmanagement'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vfc/nfvo/wfengine'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+vid:
+
+  - repository:   'vid'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vid/asdcclient'
+    unmaintained: 'true'
+    read_only:    'true'
+    included_in:  '[]'
+
+vnfrqts:
+
+  - repository:   'vnfrqts'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfrqts/epics'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfrqts/guidelines'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfrqts/requirements'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfrqts/testcases'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfrqts/usecases'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+vnfsdk:
+
+  - repository:   'vnfsdk'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/compliance'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/dovetail-integration'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/functest'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/ice'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/lctest'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/model'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/pkgtools'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/refrepo'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/validation'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vnfsdk/ves-agent'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+vvp:
+
+  - repository:   'vvp'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vvp/ansible-ice-bootstrap'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/cms'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/devkit'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/documentation'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vvp/engagementmgr'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vvp/gitlab'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/image-scanner'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/jenkins'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/portal'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/postgresql'
+    unmaintained: 'false'
+    read_only:    'true'
+    included_in:  '[]'
+
+  - repository:   'vvp/regression-tests'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vvp/test-engine'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
+
+  - repository:   'vvp/validation-scripts'
+    unmaintained: 'false'
+    read_only:    'false'
+    included_in:  '[]'
