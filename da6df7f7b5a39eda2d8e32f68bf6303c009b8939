@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5bb14594_db6c3459",
+        "filename": "repos/README.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2022-03-22T19:47:58Z",
+      "side": 1,
+      "message": "please use markdown README.md",
+      "revId": "da6df7f7b5a39eda2d8e32f68bf6303c009b8939",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4001dd9_bdef29e1",
+        "filename": "repos/repos-schema.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2022-03-22T19:47:58Z",
+      "side": 1,
+      "message": "the file does not end in a NL",
+      "revId": "da6df7f7b5a39eda2d8e32f68bf6303c009b8939",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
