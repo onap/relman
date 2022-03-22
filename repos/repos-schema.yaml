@@ -1,0 +1,26 @@
+---
+# repos-schema.yaml
+
+#$schema: "http://json-schema.org/schema#"
+#$id: "https://github.com/lfit/releng-global-jjb/blob/master/schema/info-schema.yaml"
+
+array:
+  items:
+    required:
+      - repository
+      - unmaintained
+      - read_only
+
+    properties:
+      repository:
+        type: string
+      unmaintained:
+        type: boolean
+      read_only:
+        type: boolean
+      included_in:
+        type: array
+        items:
+          oneOf:
+            - type: string
+            - type: integer
