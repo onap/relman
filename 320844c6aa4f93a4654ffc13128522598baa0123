@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "18527f25_bd91f216",
+        "filename": "repos/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 6161
+      },
+      "writtenOn": "2022-03-23T19:08:56Z",
+      "side": 1,
+      "message": "This field might be more clear if re-named \"request_unmaintained\" or similar.  Less likely to confuse current state with intent of the ptl.",
+      "revId": "320844c6aa4f93a4654ffc13128522598baa0123",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2ec35747_3178d55c",
         "filename": "repos/README.md",
         "patchSetId": 5
@@ -30,6 +47,23 @@
       "writtenOn": "2022-03-23T16:26:48Z",
       "side": 1,
       "message": "See comment for \"unamaintained\" above.",
+      "revId": "320844c6aa4f93a4654ffc13128522598baa0123",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "db8f0663_3390c0f1",
+        "filename": "repos/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 6161
+      },
+      "writtenOn": "2022-03-23T19:08:56Z",
+      "side": 1,
+      "message": "This field might be more clear if re-named \"request_read_only\" or similar.  Less likely to confuse current state with intent of the ptl.",
       "revId": "320844c6aa4f93a4654ffc13128522598baa0123",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
