@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cab0e200_e187f69e",
+        "filename": "repos/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 6161
+      },
+      "writtenOn": "2022-03-23T16:26:48Z",
+      "side": 1,
+      "message": "Per our discussion in the Monday meeting, we should make it clear that this is INTENT of the PTL, rather than the current state.  IOW - if the current state is ACTIVE, but the PTL intends for it to be UNMAINTAINED, then this would be set to true.",
+      "revId": "320844c6aa4f93a4654ffc13128522598baa0123",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ec35747_3178d55c",
+        "filename": "repos/README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 6161
+      },
+      "writtenOn": "2022-03-23T16:26:48Z",
+      "side": 1,
+      "message": "See comment for \"unamaintained\" above.",
+      "revId": "320844c6aa4f93a4654ffc13128522598baa0123",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
