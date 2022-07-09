@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "875efeff_1662d753",
+        "filename": "repos/README.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2022-07-09T15:41:25Z",
+      "side": 1,
+      "message": "the lang\u003dshell goes on the opening ``` line",
+      "revId": "6f2ea3879579448eca3110eb0025ebd1caecd5f0",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
